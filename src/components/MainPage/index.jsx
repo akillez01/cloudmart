@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Search, MessageCircle } from "lucide-react";
 import Header from "../Header";
@@ -94,7 +95,7 @@ const CloudMartMainPage = () => {
           <div className="relative">
             <input
               type="text"
-              placeholder="Search products..."
+              placeholder="Search products AI..."
               className="pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               value={searchTerm}
               onChange={handleSearch}
